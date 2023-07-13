@@ -10,9 +10,16 @@
  *****************************************************************************/
 /**
  * @file stats.c
- * @brief <Add Brief Description Here >
+ * @brief This program finds information on a given array and prints it
  *
- * <Add Extended Description Here>
+ * The main purpose of this program is to take an array which is declared in
+ * the main function, and find common features of the dataset. It can find
+ * mean, median, maximum, and minimum numbers within the dataset. It can also
+ * print and sort the array using bubble sort.
+ * There is also one final function that will print the entire array to the
+ * screen, and another function that prints the mean, median, maximum, and
+ * minimum to the screen.
+ * Within the main function, the 
  *
  * @author Michael Sullivan
  * @date 7/12/23
@@ -27,7 +34,6 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-
 void main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
@@ -36,9 +42,45 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
+
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
 
 }
 
+void print_statistics(unsigned char* array, unsigned int size){
+
+}
+
+void print_array(unsigned char* array, unsigned int size){
+
+
+}
+
+double find_median(unsigned char* array, unsigned int size){
+  
+
+
+}
+
+double find_mean(unsigned char* array, unsigned int size){
+
+
+
+}
+
+int find_maximum(unsigned char* array, unsigned int size){
+
+ 
+}
+
+int find_minimum(unsigned char* array, unsigned int size){
+
+ 
+}
+
+void sort_array(unsigned char* array, unsigned int size){
+
+
+}
 /* Add other Implementation File Code Here */
